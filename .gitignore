@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and big model files (do NOT push raw dataset or large .h5)
+data/pcam/raw/
+results/
+*.h5
+
+# Conda environment
+.env
+kaggle.json
+
+# IDEs
+.vscode/
+.idea/
+
