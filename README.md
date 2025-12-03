@@ -12,23 +12,23 @@ This project focuses on:
 
 ## Features
 
-- 🤖 **Multiple VLM Support**: 
+- **Multiple VLM Support**: 
   - LLaVA-Med (microsoft/llava-med-v1.5-mistral-7b) for medical-specific captioning
   - BLIP (Salesforce/blip-image-captioning-base) for general image captioning
 
-- 🔍 **Saliency Map Generation**:
+- **Saliency Map Generation**:
   - Grad-CAM implementation for attention visualization
   - Activation-based fallback methods
   - Pixel-Level Interpretability (PLI) maps using fuzzy logic
 
-- 📊 **Comprehensive Evaluation**:
+- **Comprehensive Evaluation**:
   - BLEU score calculation
   - Semantic similarity using sentence transformers
   - Continuity metrics (SSIM, MAE)
   - Lipschitz stability
   - Faithfulness testing through masking
 
-- 🏥 **Medical Dataset Support**:
+- **Medical Dataset Support**:
   - PCAM histopathology images
   - Custom dataset with labels integration
   - Support for multiple image formats (PNG, JPG, TIFF)
