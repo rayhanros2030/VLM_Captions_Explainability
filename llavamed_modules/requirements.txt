@@ -1,0 +1,29 @@
+# LLaVA-Med Integration Requirements
+# For Lambda Labs A100 with Lambda Stack 22.04
+
+# Core ML Libraries (usually pre-installed on Lambda Stack, but included for completeness)
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Image Processing
+pillow>=9.0.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# NLP and Evaluation
+nltk>=3.8
+sentence-transformers>=2.2.0
+
+# Fuzzy Logic for PLI
+scikit-fuzzy>=0.4.2
+
+# Optional: For better performance (if needed)
+# bitsandbytes  # For quantization (optional, not required)
+
+
+
